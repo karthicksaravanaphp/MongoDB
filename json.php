@@ -1,7 +1,7 @@
 <?php
 	
-	//$json_url = ("http://192.168.1.3/getjson/json");
-	$json_url=("test.json");
+	$json_url = ("https://github.com/karthicksaravanaphp/MongoDB/edit/master/json.php");
+	//$json_url=("test.json");
     $data = file_get_contents ($json_url);
     $json = json_decode($data, true);
 
